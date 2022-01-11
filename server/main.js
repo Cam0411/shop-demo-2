@@ -5,7 +5,7 @@ function renderShopAPi(){
     getShopApi(shops => {
         var htmls = shops.map(shop => {
             return `
-            <div class="col l-3">
+            <div class="col l-3 m-6 c-12">
             <div class="detail">
             <img src="${shop.img}" alt="" srcset="">
             <p>${shop.title}</p>
